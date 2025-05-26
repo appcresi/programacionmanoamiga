@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💻 Portafolios Digitales - Mis Alumnos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>💻 Portafolios Digitales</h1>
+            <p>Descubre los increíbles proyectos web de nuestros estudiantes</p>
+        </div>
+        <div class="search-container">
+            <input type="text" class="search-box" placeholder="🔍 Buscar por nombre del estudiante..." id="searchInput">
+        </div>
+
+        <button class="back-btn" id="backBtn">← Volver a Cursos</button>
+
+        <div id="coursesView">
+            <div class="courses-grid" id="coursesGrid">
+                <!-- Los cursos se generarán dinámicamente -->
+            </div>
+        </div>
+
+        <div id="studentsView">
+            <div class="students-grid" id="studentsGrid">
+                <!-- Los estudiantes se mostrarán aquí -->
+            </div>
+        </div>
+        <div class="mission-section">
+            <div class="mission-hero">
+                <div class="hero-background">
+                    <div class="floating-elements">
+                        <div class="float-item" style="--delay: 0s; top: 10%; left: 5%;">&lt;/&gt;</div>
+                        <div class="float-item" style="--delay: 1s; top: 20%; right: 8%;">{}</div>
+                        <div class="float-item" style="--delay: 2s; bottom: 25%; left: 10%;">💻</div>
+                        <div class="float-item" style="--delay: 1.5s; bottom: 15%; right: 12%;">🚀</div>
+                        <div class="float-item" style="--delay: 0.5s; top: 60%; left: 3%;">⭐</div>
+                        <div class="float-item" style="--delay: 2.5s; top: 45%; right: 5%;">🎨</div>
+                    </div>
+                    <div class="hero-content">
+                        <div class="hero-badge">
+                            <span class="badge-icon">🎯</span>
+                            <span>Nuestra Misión</span>
+                        </div>
+                        <h2 class="hero-title">Colegio Mano Amiga</h2>
+                        <h3 class="hero-subtitle">Programa de Programación Web</h3>
+                        <p class="hero-description">
+                            Formamos a los desarrolladores del futuro. Nuestro programa educativo guía a los estudiantes 
+                            desde sus primeros pasos en HTML hasta crear aplicaciones web interactivas, 
+                            desarrollando tanto habilidades técnicas como creatividad digital.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="learning-journey">
+                <div class="journey-header">
+                    <h3>🛤️ Nuestra Ruta de Aprendizaje</h3>
+                    <p>Un viaje progresivo a través de las tecnologías web fundamentales</p>
+                </div>
+                
+                <div class="tech-timeline">
+                    <div class="tech-card html-card">
+                        <div class="tech-header">
+                            <div class="tech-number">01</div>
+                            <div class="tech-icon">📋</div>
+                        </div>
+                        <div class="tech-content">
+                            <h4>HTML</h4>
+                            <span class="tech-subtitle">Estructura & Contenido</span>
+                            <p>Aprenden a crear la arquitectura de páginas web, organizando información de manera semántica y accesible.</p>
+                            <div class="tech-skills">
+                                <span class="skill-tag">Etiquetas</span>
+                                <span class="skill-tag">Formularios</span>
+                                <span class="skill-tag">Semántica</span>
+                            </div>
+                        </div>
+                        <div class="tech-gradient html-gradient"></div>
+                    </div>
+
+                    <div class="timeline-connector">
+                        <div class="connector-line"></div>
+                        <div class="connector-arrow">→</div>
+                    </div>
+
+                    <div class="tech-card css-card">
+                        <div class="tech-header">
+                            <div class="tech-number">02</div>
+                            <div class="tech-icon">🎨</div>
+                        </div>
+                        <div class="tech-content">
+                            <h4>CSS</h4>
+                            <span class="tech-subtitle">Diseño & Estilo</span>
+                            <p>Desarrollan su creatividad visual, dando vida y personalidad a sus proyectos web con diseño moderno.</p>
+                            <div class="tech-skills">
+                                <span class="skill-tag">Flexbox</span>
+                                <span class="skill-tag">Animaciones</span>
+                                <span class="skill-tag">Responsive</span>
+                            </div>
+                        </div>
+                        <div class="tech-gradient css-gradient"></div>
+                    </div>
+
+                    <div class="timeline-connector">
+                        <div class="connector-line"></div>
+                        <div class="connector-arrow">→</div>
+                    </div>
+
+                    <div class="tech-card js-card">
+                        <div class="tech-header">
+                            <div class="tech-number">03</div>
+                            <div class="tech-icon">⚡</div>
+                        </div>
+                        <div class="tech-content">
+                            <h4>JavaScript</h4>
+                            <span class="tech-subtitle">Lógica & Interactividad</span>
+                            <p>Incorporan funcionalidades dinámicas y lógica de programación, creando experiencias web interactivas.</p>
+                            <div class="tech-skills">
+                                <span class="skill-tag">Eventos</span>
+                                <span class="skill-tag">DOM</span>
+                                <span class="skill-tag">Funciones</span>
+                            </div>
+                        </div>
+                        <div class="tech-gradient js-gradient"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="values-showcase">
+                <h3 class="values-title">💎 Nuestros Valores</h3>
+                <div class="values-grid">
+                    <div class="value-card creativity">
+                        <div class="value-icon">🌟</div>
+                        <h4>Creatividad</h4>
+                        <p>Fomentamos la expresión única y original en cada proyecto</p>
+                    </div>
+                    <div class="value-card collaboration">
+                        <div class="value-icon">🤝</div>
+                        <h4>Colaboración</h4>
+                        <p>Trabajamos en equipo para lograr objetivos comunes</p>
+                    </div>
+                    <div class="value-card innovation">
+                        <div class="value-icon">💡</div>
+                        <h4>Innovación</h4>
+                        <p>Buscamos constantemente nuevas formas de resolver problemas</p>
+                    </div>
+                    <div class="value-card excellence">
+                        <div class="value-icon">🎯</div>
+                        <h4>Excelencia</h4>
+                        <p>Nos esforzamos por alcanzar los más altos estándares</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+        <div class="header">
+            <h1>👨‍🏫 Nuestros Profesores</h1>
+            <p>Conoce a los expertos que guían el aprendizaje en programación</p>
+        </div>
+
+        <div class="teachers-intro">
+            <div class="intro-background">
+                <div class="floating-elements">
+                    <div class="float-item" style="--delay: 0s; top: 10%; left: 5%;">&lt;/&gt;</div>
+                    <div class="float-item" style="--delay: 1s; top: 20%; right: 8%;">{}</div>
+                    <div class="float-item" style="--delay: 2s; bottom: 25%; left: 10%;">💻</div>
+                    <div class="float-item" style="--delay: 1.5s; bottom: 15%; right: 12%;">🚀</div>
+                    <div class="float-item" style="--delay: 0.5s; top: 60%; left: 3%;">⭐</div>
+                    <div class="float-item" style="--delay: 2.5s; top: 45%; right: 5%;">🎨</div>
+                </div>
+                <div class="intro-content">
+                    <div class="intro-badge">
+                        <span class="badge-icon">🎯</span>
+                        <span>Nuestro Equipo</span>
+                    </div>
+                    <h2 class="intro-title">Excelencia Educativa</h2>
+                    <h3 class="intro-subtitle">Área de Programación</h3>
+                    <p class="intro-description">
+                        Nuestros profesores combinan años de experiencia en educación con pasión por la tecnología. 
+                        Cada uno aporta una perspectiva única y metodologías innovadoras para formar a los 
+                        programadores del futuro, adaptándose a las necesidades específicas de cada nivel educativo.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="teachers-grid">
+            <div class="teacher-card primary-teacher">
+                <div class="teacher-avatar">AO</div>
+                <h2 class="teacher-name">Andrés Obregón</h2>
+                <p class="teacher-level">Profesor de Primaria</p>
+                <div class="teacher-specialty">Especialista en Fundamentos de Programación</div>
+                
+                <p class="teacher-description">
+                    El profesor Andrés se especializa en hacer que los conceptos de programación sean accesibles 
+                    y divertidos para los estudiantes más jóvenes. Con una metodología lúdica y práctica, 
+                    introduce a los niños al pensamiento computacional a través de juegos, proyectos creativos 
+                    y actividades interactivas que despiertan su curiosidad por la tecnología.
+                </p>
+
+                <div class="teacher-stats">
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Años de Experiencia</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">150+</span>
+                            <span class="stat-label">Estudiantes Formados</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="teacher-skills">
+                    <div class="skills-title">Especialidades</div>
+                    <div class="skills-list">
+                        <span class="skill-tag">HTML Básico</span>
+                        <span class="skill-tag">CSS Creativo</span>
+                        <span class="skill-tag">Scratch</span>
+                        <span class="skill-tag">Pensamiento Lógico</span>
+                        <span class="skill-tag">Proyectos Lúdicos</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="teacher-card secondary-teacher">
+                <div class="teacher-avatar">GC</div>
+                <h2 class="teacher-name">Gladys Cabral</h2>
+                <p class="teacher-level">Profesora de Secundaria</p>
+                <div class="teacher-specialty">Especialista en Desarrollo Web Avanzado</div>
+                
+                <p class="teacher-description">
+                    La profesora Gladys guía a los estudiantes de secundaria hacia un nivel más profundo de 
+                    programación web. Su enfoque combina teoría sólida con práctica intensiva, preparando a 
+                    los jóvenes para enfrentar desafíos reales del desarrollo web moderno. Fomenta el 
+                    pensamiento crítico y la resolución creativa de problemas.
+                </p>
+
+                <div class="teacher-stats">
+                    <div class="stats-grid">
+                        <div class="stat-item">
+                            <span class="stat-number">8+</span>
+                            <span class="stat-label">Años de Experiencia</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">200+</span>
+                            <span class="stat-label">Estudiantes Formados</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="teacher-skills">
+                    <div class="skills-title">Especialidades</div>
+                    <div class="skills-list">
+                        <span class="skill-tag">HTML Avanzado</span>
+                        <span class="skill-tag">CSS Responsive</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Proyectos Web</span>
+                        <span class="skill-tag">UX/UI Design</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="contact-section">
+            <h3 class="contact-title">Contacto</h3>
+            <p class="contact-description">
+                ¿Tienes preguntas sobre el programa de programación o necesitas más información? 
+                Nuestros profesores están disponibles para ayudarte y resolver todas tus dudas.
+            </p>
+            <div class="contact-info">
+                <div class="contact-card">
+                    <div class="contact-name">Prof. Andrés Obregón</div>
+                    <div class="contact-email">aobregon@colegiomanoamiga.edu</div>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-name">Prof. Gladys Cabral</div>
+                    <div class="contact-email">gcabral@colegiomanoamiga.edu</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        
+    </div>
+
+    <!-- Modal para mostrar proyectos -->
+    <div id="projectModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">Proyecto de Estudiante</h2>
+                <span class="close" id="closeModal">&times;</span>
+            </div>
+            <iframe id="projectFrame" class="project-iframe" src=""></iframe>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
