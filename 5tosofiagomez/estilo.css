@@ -15,7 +15,7 @@ div:hover{
 	transform: scale(0.6);
 }
 button{
-     background-color: ;
+     background-color: green;
 }
 main{
     display: grid;
@@ -32,4 +32,10 @@ li{
 form{
 	display: flex;
 	flex-direction: column;
+}
+
+@media screen and (max-width: 321px) {
+    main {
+        grid-template-columns: 1fr;
+    }
 }

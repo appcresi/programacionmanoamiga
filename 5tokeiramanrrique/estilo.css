@@ -41,7 +41,11 @@ transform: scale(1.2);
 }
 
 
-
+@media screen and (max-width: 321px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
 
 
 

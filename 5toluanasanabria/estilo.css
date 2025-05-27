@@ -30,14 +30,20 @@ div{
     transition: 3s;
 }
 li{
-   padding: 10px 
-   list-style:none;
+   padding: 10px;
+   list-style: none;
 }
 div:hover{
     transform: scale(1.1);
 }
 button:hover{
     transform: scale(1.2);
+}
+
+@media screen and (max-width: 321px) {
+    main {
+        grid-template-columns: 1fr;
+    }
 }
 
 

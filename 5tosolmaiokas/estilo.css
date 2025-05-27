@@ -13,13 +13,18 @@ div{
 	text-align:center;
 	transition: 3s;
 }
-<div:hover{
-	transform: scale(10.00);
+div:hover{
+	transform: scale(1.1);
 }
 main{
 	display: grid;
 	grid-template-columns:1fr 1fr 1fr;
 }
 button{
-	transition: 3s
+	transition: 3s;
+}
+@media screen and (max-width: 321px) {
+    main {
+        grid-template-columns: 1fr;
+    }
 }

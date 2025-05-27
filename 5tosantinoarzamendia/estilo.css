@@ -27,36 +27,18 @@ div{
   transform: scale(1.5);
 }
 button:hover {
-
 transform: scale(1.5);
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
-
-
-
-
-
-
-
-
-}
-li
+li{
     padding: 10px;    
     list-style: none;
+}
+@media screen and (max-width: 321px) {
+    main {
+        grid-template-columns: 1fr;
+    }
 }
 
 

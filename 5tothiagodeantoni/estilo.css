@@ -1,6 +1,6 @@
 body{
-        background-color: 
-        color:withe;
+        background-color:  cyan;
+        color: white;
 }
  div{
          background-color:green; 
@@ -45,6 +45,11 @@ form{
       flex-direction: column;
 }
 
+@media screen and (max-width: 321px) {
+    main {
+        grid-template-columns: 1fr;
+    }
+}
 
 
 
