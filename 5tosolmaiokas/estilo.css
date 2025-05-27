@@ -1,0 +1,25 @@
+body{
+	background-color: red;
+	color: white;
+}
+div{
+	background-color: green;
+	width: 300px;
+	background-color: white;
+	border-radius: 10px;      
+	width: 300;
+	padding: 20px;
+	margin: 10px; 
+	text-align:center;
+	transition: 3s;
+}
+<div:hover{
+	transform: scale(10.00);
+}
+main{
+	display: grid;
+	grid-template-columns:1fr 1fr 1fr;
+}
+button{
+	transition: 3s
+}

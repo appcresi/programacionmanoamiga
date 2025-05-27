@@ -1,0 +1,59 @@
+body{
+	background-color: aqua;
+	color: black;
+}
+header{
+	background-color: white;
+}
+ul{
+  text-align: center;
+	display: flex;
+	background-color: white
+}
+main{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+button{
+  background-color: white;
+  border-radius: 10px;
+}
+
+div{
+	background-color: white;
+    width: 300px;
+    height: 500px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    transition: 3s;
+}
+li{
+   padding: 10px 
+   list-style:none;
+}
+div:hover{
+    transform: scale(1.1);
+}
+button:hover{
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

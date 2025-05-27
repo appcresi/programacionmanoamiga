@@ -1,0 +1,46 @@
+body{
+	background-color: #CD8011;
+	color: black;
+}
+div{
+	background-color: aqua;
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	text-align: center;
+    transition: 3s;  
+}
+div:hover{
+	transform: scale(1.1);
+}
+button{
+	background-color: lime;
+	border-radius: 10px;
+}
+main{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+header{
+	background-color: blue;
+}
+ul{
+	display: flex;
+	background-color: teal; 
+}
+li{
+	padding: 10px;
+	list-style: none;
+}
+form{
+	display: flex;
+	flex-direction: column;
+}
+button{
+	transition: 3s;
+}
+button:hover{
+    transform: scale(1.2);
+}

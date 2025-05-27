@@ -1,0 +1,41 @@
+body{
+	background-color:aqua;
+	color: white;
+}
+div{
+	background-color: green;
+	width: 300px;
+	height: 400px;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	text-align: center;
+	transition: 3s;
+}	
+div:hover{
+	transform:scale(1.1) ;
+}
+
+button{
+   background-color: teal;
+     border-radius: 10px;
+}
+
+header{
+	background-color:blue;
+} 
+ul{
+    display: flex;
+    background-color: green;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+	  
+li{
+	padding:10px;
+	list-style: none;  
+}

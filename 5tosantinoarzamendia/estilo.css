@@ -1,0 +1,66 @@
+body{
+	background-color: lime;
+    
+
+ }
+  header{
+  	    background-color: aqua;
+  }
+ ul{
+  display: flex;
+}
+
+main{
+  	display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+div{
+  background-color:  green;
+  width:  300px;
+  height: 400;
+  margin:  10px;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  transition: 3s;
+}div:hover{
+  transform: scale(1.5);
+}
+button:hover {
+
+transform: scale(1.5);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+}
+li
+    padding: 10px;    
+    list-style: none;
+}
+
+
+
+
+
+

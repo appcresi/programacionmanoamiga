@@ -1,0 +1,46 @@
+*{
+	background-color: lime;
+}
+body{  																																											body
+    background-color:aqua;
+    color:;
+}
+div{
+background-color:#008080;
+width: 300px;
+height: 300px;
+margin: 90px;
+padding: 10px;
+border-radius: 10px;
+text-align: center; 
+transition: 5s;
+}
+div:hover{
+transform: scale(1.1);
+}
+button{
+transition: 5s
+}
+button:hover{
+transform: scale(1.2);
+}
+button{
+background-color: teal;
+border-radius: 10px;
+}
+main{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+ul{
+display: flex;
+background-color:#008080 ;
+}
+li{
+padding: 10px;
+list-style: none;
+}
+form{
+display: flex;
+flex-direction: column;
+}

@@ -1,0 +1,54 @@
+body{
+	background-color: black;
+	color: red;
+} 
+
+
+div{
+ background-color: green;
+ width: 300px;
+ height: 450px;
+ margin: 10px;
+padding: 10px;
+text-align: center;
+transition: 3s;
+
+}
+
+div:hover{
+	transform:scale(1.1);
+}
+button{
+background-color: teal;
+border-radius: 10px;
+transition: 3s;
+}
+main{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+}
+ul{
+display: flex;
+background-color: green;
+}
+li{
+    padding: 10px;
+    list-style: none;
+}
+form{
+display: flex;
+flex-direction: column;
+}
+
+button:hover{
+
+	transform:  scale(1.2);
+}
+
+
+
+
+
+
+
+

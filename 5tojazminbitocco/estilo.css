@@ -1,0 +1,61 @@
+header{
+	background-color:aqua;
+    color:yellow;
+}
+div{
+	background-color:blue;
+	width: 300px;
+	height: 400px;
+	margin: 10px;
+	padding: 10px;
+	border-radius: 10px;
+	text-align: center;
+	color: silver
+}
+button{
+	   background-color: #68baa6;
+	   border-radius: 10px;
+	   width: 200px;
+
+}
+
+ul{
+	display:flex;
+	background-color:teal; 
+}
+li{
+	padding: 10px;
+	list-style: none;
+}
+
+main{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+
+}
+button{
+	transition: 3s;
+
+}
+button:hover{
+	transform: scale(1.2);
+}
+form{
+	display: flex;
+	flex-direction: column;
+
+}
+div{
+	background-color: blue;
+	border-radius: 10px;
+	width: 300px;
+	padding: 20px;
+	margin: 10px;
+	text-align: center;
+	transition: 3s;
+
+}
+div:hover{
+	transform: scale(1.1);
+}
+

@@ -6,24 +6,69 @@
                 icon: "🌟",
                 students: [
                     {
-                        name: "Ana García",
+                        name: "Arzamendia Santino",
                         project: "Mi Primera Página Web",
-                        url: "https://example.com/ana-garcia-proyecto"
+                        url: "5tosantinoarzamendia/index.html"
                     },
                     {
-                        name: "Carlos López",
-                        project: "Página sobre Animales",
-                        url: "https://example.com/carlos-lopez-proyecto"
+                        name: "Bonini Ortiz Mateo",
+                        project: "Mi Primera Página Web",
+                        url: "5tomateobonini/index.html"
                     },
                     {
-                        name: "María Rodríguez",
-                        project: "Mi Familia",
-                        url: "https://example.com/maria-rodriguez-proyecto"
+                        name: "Cisnero Clara",
+                        project: "Mi Primera Página Web",
+                        url: "5toclaracisneros/index.html"
                     },
                     {
-                        name: "Diego Martín",
-                        project: "Deportes Favoritos",
-                        url: "https://example.com/diego-martin-proyecto"
+                        name: "Cufré Milo",
+                        project: "Mi Primera Página Web",
+                        url: "5tomilocufre/index.html"
+                    },
+                    {
+                        name: "Deantoni Thiago",
+                        project: "Mi Primera Página Web",
+                        url: "5tothiagodeantoni/index.html"
+                    },
+                    {
+                        name: "Galeano Manrrique Keira",
+                        project: "Mi Primera Página Web",
+                        url: "5tokeiramanrrique/index.html"
+                    },
+                    {
+                        name: "Gauna Facundo",
+                        project: "Mi Primera Página Web",
+                        url: "5tofacundogauna/index.html"
+                    },
+                    {
+                        name: "Gimenez Faustina",
+                        project: "Mi Primera Página Web",
+                        url: "5tofaustinagimenez/index.html"
+                    },
+                    {
+                        name: "Gomez Sofia",
+                        project: "Mi Primera Página Web",
+                        url: "5tosofiagomez/index.html"
+                    },
+                    {
+                        name: "Gonzalez Bruno",
+                        project: "Mi Primera Página Web",
+                        url: "5tobrunogonzalez/index.html"
+                    },
+                    {
+                        name: "Izquierdo Francisco",
+                        project: "Mi Primera Página Web",
+                        url: "5tofranciscoizquierdo/index.html"
+                    },
+                    {
+                        name: "Maiokas Sol",
+                        project: "Mi Primera Página Web",
+                        url: "5tosolmaiokas/index.html"
+                    },
+                    {
+                        name: "Sanabria Luana",
+                        project: "Mi Primera Página Web",
+                        url: "5toluanasanabria/index.html"
                     }
                 ]
             },
@@ -32,21 +77,7 @@
                 subtitle: "Explorando CSS y diseño",
                 icon: "🎨",
                 students: [
-                    {
-                        name: "Sofía Chen",
-                        project: "Galería de Arte Digital",
-                        url: "https://example.com/sofia-chen-proyecto"
-                    },
-                    {
-                        name: "Alejandro Silva",
-                        project: "Blog Personal",
-                        url: "https://example.com/alejandro-silva-proyecto"
-                    },
-                    {
-                        name: "Valentina Torres",
-                        project: "Recetas de Cocina",
-                        url: "https://example.com/valentina-torres-proyecto"
-                    }
+                    
                 ]
             },
             "5to-año": {
@@ -54,21 +85,6 @@
                 subtitle: "JavaScript y interactividad",
                 icon: "⚡",
                 students: [
-                    {
-                        name: "Mateo Fernández",
-                        project: "Calculadora Interactiva",
-                        url: "https://example.com/mateo-fernandez-proyecto"
-                    },
-                    {
-                        name: "Isabella Morales",
-                        project: "Juego de Memoria",
-                        url: "https://example.com/isabella-morales-proyecto"
-                    },
-                    {
-                        name: "Sebastián Ruiz",
-                        project: "Lista de Tareas",
-                        url: "https://example.com/sebastian-ruiz-proyecto"
-                    }
                 ]
             },
             "6to-año": {
@@ -76,16 +92,7 @@
                 subtitle: "Proyectos web avanzados",
                 icon: "🚀",
                 students: [
-                    {
-                        name: "Camila Vásquez",
-                        project: "Tienda Online",
-                        url: "https://example.com/camila-vasquez-proyecto"
-                    },
-                    {
-                        name: "Nicolás Herrera",
-                        project: "Red Social Estudiantil",
-                        url: "https://example.com/nicolas-herrera-proyecto"
-                    }
+                    
                 ]
             }
         };
