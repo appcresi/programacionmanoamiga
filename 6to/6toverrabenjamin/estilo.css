@@ -1,0 +1,55 @@
+body{
+   background-color: grey;
+   color: black;
+}
+h1{
+  background-color: white;
+}
+ul{
+   background-color: white;
+   list-style: none;
+   display:flex; 
+   justify-content: space-around;
+}
+li:hover{
+    background-color: black;  
+    color: white;
+    cursor: pointer;
+}  
+div{
+    background-color: white;
+    border-radius: 10px;
+    width: 250px;
+    padding: 20px;
+    margin:  47px;
+    text-align: center;
+    transition: 3s;
+}
+div:hover{
+    transform:scale(1.1);
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+button{
+      background-color: teal;
+      border-radius: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

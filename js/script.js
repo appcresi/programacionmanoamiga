@@ -92,11 +92,35 @@
                         project: "Mi Primera Página Web",
                         url: "6to/6tolescanomaxima/index.html"
                     },
-                    ,
                     {
                         name: "Ligato Delfina",
                         project: "Mi Primera Página Web",
                         url: "6to/6toligatodelfina/index.html"
+                    },
+                    {
+                        name: "Bustos Renata",
+                        project: "Mi Primera Página Web",
+                        url: "6to/6tobustorenata/index.html"
+                    },
+                    {
+                        name: "Gallo Roman",
+                        project: "Mi Primera Página Web",
+                        url: "6to/6togalloroman/index.html"
+                    },
+                    {
+                        name: "Maia Cáceres",
+                        project: "Mi Primera Página Web",
+                        url: "6to/6tomaiacaceres/index.html"
+                    },
+                    {
+                        name: "Ortiz Camila",
+                        project: "Mi Primera Página Web",
+                        url: "6to/6toortizcamila/index.html"
+                    },
+                    {
+                        name: "Vera Benjamín",
+                        project: "Mi Primera Página Web",
+                        url: "6to/6toverrabenjamin/index.html"
                     },
                 ]
             },
