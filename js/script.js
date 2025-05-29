@@ -85,12 +85,18 @@
                     {
                         name: "Dellepiane Renata",
                         project: "Mi Primera Página Web",
-                        url: "6to/6todelleianerenata/index.html"
+                        url: "6to/6todellepianerenata/index.html"
                     },
                     {
                         name: "Lescano Máxima",
                         project: "Mi Primera Página Web",
                         url: "6to/6tolescanomaxima/index.html"
+                    },
+                    ,
+                    {
+                        name: "Ligato Delfina",
+                        project: "Mi Primera Página Web",
+                        url: "6to/6toligatodelfina/index.html"
                     },
                 ]
             },
