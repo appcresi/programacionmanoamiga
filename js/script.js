@@ -120,7 +120,7 @@
                     {
                         name: "Vera Benjamín",
                         project: "Mi Primera Página Web",
-                        url: "6to/6toverrabenjamin/index.html"
+                        url: "6to/6toverrabenjamin/"
                     },
                 ]
             },
