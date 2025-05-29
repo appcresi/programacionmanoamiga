@@ -77,7 +77,21 @@
                 subtitle: "Explorando CSS y diseño",
                 icon: "🎨",
                 students: [
-                    
+                    {
+                        name: "Codaro Mercedes",
+                        project: "Mi Primera Página Web",
+                        url: "6to/6tocodaromercedes/index.html"
+                    },
+                    {
+                        name: "Dellepiane Renata",
+                        project: "Mi Primera Página Web",
+                        url: "6to/6todelleianerenata/index.html"
+                    },
+                    {
+                        name: "Lescano Máxima",
+                        project: "Mi Primera Página Web",
+                        url: "6to/6tolescanomaxima/index.html"
+                    },
                 ]
             },
             "5to-año": {

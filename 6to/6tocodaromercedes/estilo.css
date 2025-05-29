@@ -1,0 +1,40 @@
+body{
+     background-color: fuchsia;
+     color: black;
+}
+h1{
+   background-color: pink;
+   color: purple;
+}
+ul{
+   background-color: aqua;
+   list-style: none;   
+   display: flex;
+   justify-content: space-around;
+}
+li:hover{
+    background-color: black;
+    color: pink;
+    cursor: pointer;
+}
+div{
+   background-color: white;
+   border-radius: 10px;
+   width: 300px;
+   padding: 20px;
+   margin: 10px;
+   text-align: center;
+   transition: 3s;
+}
+div:hover{
+    transform: scale(1.1);
+
+}
+     
+
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
